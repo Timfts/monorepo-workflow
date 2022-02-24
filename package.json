@@ -4,6 +4,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "versionup:beta": "lerna version --conventional-commits --create-release github --conventional-prerelease --preid beta --yes",
+    "versionup:prod": "lerna version --conventional-commits --create-release github --conventional-graduate --yes",
+    "publish": "lerna publish from-git --yes"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
