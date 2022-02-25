@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-beta.1](https://github.com/Timfts/monorepo-workflow/compare/v0.1.0-beta.0...v0.1.0-beta.1) (2022-02-25)
+
+
+### Features
+
+* ✨ add letter ([336c874](https://github.com/Timfts/monorepo-workflow/commit/336c874335026fba1efbca319a19c063c6015431))
+
+
+
+
+
 # 0.1.0-beta.0 (2022-02-25)
 
 
