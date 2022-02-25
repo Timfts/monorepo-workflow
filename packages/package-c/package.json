@@ -1,6 +1,6 @@
 {
   "name": "@mrp-workflow/package-c",
-  "version": "0.0.0",
+  "version": "0.1.0-beta.0",
   "description": "> TODO: description",
   "author": "Tim Fontes",
   "homepage": "https://github.com/Timfts/monorepo-workflow#readme",
@@ -24,6 +24,6 @@
     "url": "https://github.com/Timfts/monorepo-workflow/issues"
   },
   "dependencies": {
-    "@mrp-workflow/package-a": "^0.0.0"
+    "@mrp-workflow/package-a": "^0.1.0-beta.0"
   }
 }
