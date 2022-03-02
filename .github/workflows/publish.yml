@@ -45,5 +45,5 @@ jobs:
           yarn versionup:prod
           yarn publish:packages
         env: 
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.TIM_PUBLISH_TEST_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
