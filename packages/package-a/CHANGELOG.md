@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-next.2](https://github.com/Timfts/monorepo-workflow/compare/v0.1.0-next.1...v0.1.0-next.2) (2022-03-02)
+
+
+### Bug Fixes
+
+* 🐛 changed text ([e223292](https://github.com/Timfts/monorepo-workflow/commit/e223292328bd0c62f5d60fb880c2f853a13d1c2e))
+
+
+### Features
+
+* ✨ added new text ([72f3cd7](https://github.com/Timfts/monorepo-workflow/commit/72f3cd7632d27ffd9d38c7e4572642d95f2e7d4b))
+* ✨ changed ([48e95ac](https://github.com/Timfts/monorepo-workflow/commit/48e95ac7668dd17ad7fe70ed02c3a0d20781a738))
+* ✨ changed text ([6f91511](https://github.com/Timfts/monorepo-workflow/commit/6f91511f9457eb5a6b92106d561d52d4614a2b75))
+* ✨ changed text ([8a72a98](https://github.com/Timfts/monorepo-workflow/commit/8a72a987d7cc3c9641ff6461d51c5f724a0ca5b3))
+
+
+
+
+
 # [0.1.0-next.1](https://github.com/Timfts/monorepo-workflow/compare/v0.1.0-next.0...v0.1.0-next.1) (2022-03-02)
 
 
