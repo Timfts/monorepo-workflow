@@ -14,18 +14,19 @@ permissions:
 jobs:
   publish:
     if: github.event.pull_request.merged == true
-    name: Release Candidate
+    name: Release Production
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout"
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          token: ${{ secrets.TIM_PUBLISH_TEST_TOKEN }}
       - name: "Setup do nodejs"
         uses: actions/setup-node@v2
         with:
           node-version: 14
-          registry-url: 'https://npm.pkg.github.com/'
+          registry-url: "https://npm.pkg.github.com/"
           cache: "yarn"
 
       - name: Ensure access
@@ -44,6 +45,17 @@ jobs:
         run: |
           yarn versionup:prod
           yarn publish:packages
-        env: 
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GH_TOKEN: ${{ secrets.TIM_PUBLISH_TEST_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: delete branch 'Next'
+        uses: SvanBoxel/delete-merged-branch@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.TIM_PUBLISH_TEST_TOKEN }}
+
+      - name: recreate branch 'Next'
+        uses: peterjgrainger/action-create-branch@v2.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.TIM_PUBLISH_TEST_TOKEN }}
+        with:
+          branch: "next"
