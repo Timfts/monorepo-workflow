@@ -7,13 +7,15 @@
   "command": {
     "publish": {
       "ignoreChanges": [
-        "LICENSE",
-        "*.md"
+        "**/LICENSE",
+        "**/*.md",
+        "**/*.yml",
+        "**/*.test.{js,jsx,ts,tsx}"
       ],
       "message": "chore(release): publish",
       "conventionalCommits": true,
       "registry": "https://npm.pkg.github.com"
     }
   },
-  "version": "0.0.0"
+  "version": "0.1.0-next.1"
 }

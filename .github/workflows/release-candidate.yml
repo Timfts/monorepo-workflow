@@ -1,10 +1,10 @@
-name: Publish Beta
+name: Release Candidate
 
 on:
   pull_request:
     types: [closed]
     branches:
-      - release
+      - next
 
 permissions:
   contents: write # for checkout and tag
@@ -14,17 +14,17 @@ permissions:
 jobs:
   publish:
     if: github.event.pull_request.merged == true
-    name: Publish beta
+    name: Release Candidate
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout"
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: "Use NodeJS"
+      - name: "Setup do nodejs"
         uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: 14
           registry-url: 'https://npm.pkg.github.com/'
           cache: "yarn"
 
@@ -42,7 +42,7 @@ jobs:
         run: yarn install
       - name: Bump versions and publish packages
         run: |
-          yarn versionup:beta
+          yarn versionup:rc
           yarn publish:packages
         env: 
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
