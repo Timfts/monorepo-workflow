@@ -24,6 +24,6 @@
     "url": "https://github.com/Timfts/monorepo-workflow/issues"
   },
   "dependencies": {
-    "@mrp-workflow/package-a": "^0.0.0"
+    "@timfts/package-a": "^0.0.0"
   }
 }
