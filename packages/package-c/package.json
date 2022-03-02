@@ -1,6 +1,6 @@
 {
   "name": "@timfts/package-c",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "> TODO: description",
   "author": "Tim Fontes",
   "homepage": "https://github.com/Timfts/monorepo-workflow#readme",
@@ -24,6 +24,6 @@
     "url": "https://github.com/Timfts/monorepo-workflow/issues"
   },
   "dependencies": {
-    "@timfts/package-a": "^0.1.0"
+    "@timfts/package-a": "^0.2.0"
   }
 }
