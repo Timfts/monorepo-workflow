@@ -4,4 +4,5 @@ module.exports = packageB;
 
 function packageB() {
     // TODO
+    console.log("cenoura")
 }
