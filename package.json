@@ -5,8 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "versionup:prerelease": "lerna version --conventional-commits --create-release github --conventional-prerelease --yes",
-    "publish:prerelease":"lerna publish --loglevel=verbose --canary --exact --preid next --yes",
+    "versionup:prerelease": "lerna version --conventional-commits --preid next --create-release github --conventional-prerelease --yes",
     "versionup:prod": "lerna version --conventional-commits --create-release github --conventional-graduate --yes",
     "publish:packages": "lerna publish from-git --yes"
   },
