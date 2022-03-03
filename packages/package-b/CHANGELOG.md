@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0-alpha.0](https://github.com/Timfts/monorepo-workflow/compare/v0.4.0...v0.5.0-alpha.0) (2022-03-03)
+
+
+### Features
+
+* ✨ added text ([7a81594](https://github.com/Timfts/monorepo-workflow/commit/7a815942293089f0188638fe7b602b49e014c200))
+
+
+
+
+
 # [0.4.0](https://github.com/Timfts/monorepo-workflow/compare/v0.3.0...v0.4.0) (2022-03-03)
 
 **Note:** Version bump only for package @timfts/package-b

@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0-alpha.0](https://github.com/Timfts/monorepo-workflow/compare/v0.4.0...v0.5.0-alpha.0) (2022-03-03)
+
+
+### Bug Fixes
+
+* 🐛 added new ci ([911b991](https://github.com/Timfts/monorepo-workflow/commit/911b9916620dc1bea193871fe6400cdfb542b512))
+
+
+### Features
+
+* ✨ added dev versionup ([5290306](https://github.com/Timfts/monorepo-workflow/commit/52903069f8eae1539864ea2e4ba0bb0036d49cd0))
+* ✨ added log ([bca492a](https://github.com/Timfts/monorepo-workflow/commit/bca492a04d892f4b4b1429f3d0ebd997bbed1d60))
+* ✨ added mocks ([a37fb28](https://github.com/Timfts/monorepo-workflow/commit/a37fb289c49691b6a2b3d7b5c9a6823eebfacaf8))
+* ✨ added new text ([b78a7f9](https://github.com/Timfts/monorepo-workflow/commit/b78a7f9cdca737f1f06fa50cc3a323f2f9fedcfa))
+* ✨ added new text ([5b2b829](https://github.com/Timfts/monorepo-workflow/commit/5b2b829012890c54c625537e51c495221ad494d0))
+* ✨ added text ([7a81594](https://github.com/Timfts/monorepo-workflow/commit/7a815942293089f0188638fe7b602b49e014c200))
+* ✨ changed pckage ([35bbcf0](https://github.com/Timfts/monorepo-workflow/commit/35bbcf007daed9b2663c0f4af8f8bc428f1a6402))
+* ✨ changed text ([f2d5ad6](https://github.com/Timfts/monorepo-workflow/commit/f2d5ad6af7f7dab68196f651ba9cc8ab492d1023))
+* ✨ changed text ([00d274a](https://github.com/Timfts/monorepo-workflow/commit/00d274a12e2c81ecf9d01b737d4e0710954a297b))
+* ✨ modified package ([6deab77](https://github.com/Timfts/monorepo-workflow/commit/6deab77e18cf037660e356d7d3fb997f570684d0))
+* ✨ remove unused text ([e58138c](https://github.com/Timfts/monorepo-workflow/commit/e58138c837df28a20b7f0cd4ad799f87c47a788e))
+
+
+
+
+
 # [0.4.0](https://github.com/Timfts/monorepo-workflow/compare/v0.3.0...v0.4.0) (2022-03-03)
 
 
