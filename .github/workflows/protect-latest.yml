@@ -21,10 +21,8 @@ jobs:
         with:
           fetch-depth: 0
       - name: check if is correct branch
+        if: ${{ github.head_ref != 'main' }}
         run: |
-          echo ${{github.head_ref}}
-          if '${{github.head_ref}}' != 'main' ; then
-            echo "Only PR from main branch is allowed"
+          echo "Only PR from main branch is allowed"
           exit 1
-          fi
 
