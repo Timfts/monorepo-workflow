@@ -7,7 +7,8 @@
   "scripts": {
     "versionup:rc": "lerna version --conventional-commits --create-release github --conventional-prerelease --preid next --no-push --yes",
     "versionup:prod": "lerna version --conventional-commits --create-release github --conventional-graduate --yes",
-    "publish:packages": "lerna publish from-git --yes"
+    "publish:packages": "lerna publish from-git --yes",
+    "publish:canary":"lerna publish --loglevel=verbose --canary --exact --force-publish --yes"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
