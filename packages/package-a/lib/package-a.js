@@ -4,5 +4,5 @@ module.exports = packageA;
 
 function packageA() {
     // TODO
-    console.log("cenourasdfsdfsdf")
+    console.log("cenouras")
 }
