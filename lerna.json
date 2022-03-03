@@ -10,7 +10,8 @@
         "**/LICENSE",
         "**/*.md",
         "**/*.yml",
-        "**/*.test.{js,jsx,ts,tsx}"
+        "**/*.test.{js,jsx,ts,tsx}",
+        "**/__mocks__/**"
       ],
       "message": "chore(release): publish",
       "conventionalCommits": true,
