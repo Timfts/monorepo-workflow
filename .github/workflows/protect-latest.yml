@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   check:
-    name: log
+    name: Check prod PR
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout"
