@@ -16,6 +16,10 @@ jobs:
     name: log
     runs-on: ubuntu-latest
     steps:
+      - name: "Checkout"
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: log
         run: |
         echo ${{github.ref_name}} ${{github.head_ref}}
