@@ -5,9 +5,10 @@
     "packages/*"
   ],
   "scripts": {
-    "versionup:prod": "lerna version --conventional-commits --create-release github --yes",
-    "publish:packages": "lerna publish from-git --yes",
-    "publish:canary":"lerna publish --loglevel=verbose --canary --exact --preid next --force-publish='*' --yes"
+    "versionup:prerelease": "lerna version --conventional-commits --create-release github --conventional-prerelease --yes",
+    "publish:prerelease":"lerna publish --loglevel=verbose --canary --exact --preid next --yes",
+    "versionup:prod": "lerna version --conventional-commits --create-release github --conventional-graduate --yes",
+    "publish:packages": "lerna publish from-git --yes"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
