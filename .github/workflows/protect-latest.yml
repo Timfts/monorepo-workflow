@@ -23,7 +23,7 @@ jobs:
       - name: check if is correct branch
         run: |
           echo ${{github.head_ref}}
-          if github.head_ref != 'main' ; then
+          if ${{github.head_ref}} != 'main' ; then
             echo "Only PR from main branch is allowed"
           exit 1
           fi
