@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/Timfts/monorepo-workflow/compare/v0.6.0...v0.7.0) (2022-03-03)
+
+
+### Bug Fixes
+
+* 🐛 fixed action ([9b6bbe7](https://github.com/Timfts/monorepo-workflow/commit/9b6bbe76f4e4c992b07283709f60ac0efcefca34))
+* 🐛 fixed name ([b28db43](https://github.com/Timfts/monorepo-workflow/commit/b28db43af4f08a573edc3c243b492f08291d2f00))
+* 🐛 fixed string ([5c8dfbc](https://github.com/Timfts/monorepo-workflow/commit/5c8dfbc983f33abd4f26e0d1f750e84f956e5c84))
+
+
+### Features
+
+* ✨ added checker ([d1dc5b7](https://github.com/Timfts/monorepo-workflow/commit/d1dc5b7d90f74b890302a1a50f60bf6e06c48bb3))
+* ✨ added checkout ([c032cad](https://github.com/Timfts/monorepo-workflow/commit/c032cad14060a0ad02ad46e4dc07c17a274d5d6f))
+* ✨ added new package ([c391345](https://github.com/Timfts/monorepo-workflow/commit/c391345e5d2748ac5ac1410fc0d53c6847c2e984))
+* ✨ changed package a ([2b57b77](https://github.com/Timfts/monorepo-workflow/commit/2b57b77bd5c574cd3b546525ae621618d4e5944d))
+
+
+
+
+
 # [0.6.0](https://github.com/Timfts/monorepo-workflow/compare/v0.5.0-alpha.0...v0.6.0) (2022-03-03)
 
 

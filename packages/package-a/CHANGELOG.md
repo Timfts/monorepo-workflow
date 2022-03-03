@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/Timfts/monorepo-workflow/compare/v0.6.0...v0.7.0) (2022-03-03)
+
+
+### Features
+
+* ✨ changed package a ([2b57b77](https://github.com/Timfts/monorepo-workflow/commit/2b57b77bd5c574cd3b546525ae621618d4e5944d))
+
+
+
+
+
 # [0.6.0](https://github.com/Timfts/monorepo-workflow/compare/v0.5.0-alpha.0...v0.6.0) (2022-03-03)
 
 
