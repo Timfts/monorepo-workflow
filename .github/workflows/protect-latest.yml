@@ -20,7 +20,11 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: log
+      - name: check if is correct branch
         run: |
           echo ${{github.head_ref}}
+          if github.head_ref != 'main' ; then
+            echo "Only PR from main branch is allowed"
+          exit 1
+          fi
 
