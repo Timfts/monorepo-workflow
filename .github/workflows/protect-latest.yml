@@ -1,4 +1,4 @@
-name: Pre-release
+name: Check prod release merge
 
 on:
   pull_request:
@@ -12,8 +12,12 @@ permissions:
   packages: write # for publish
 
 jobs:
-  publish:
-    - name: log
-      run: |
-      echo ${{github.ref_name}} ${{github.head_ref}}
+  check:
+    name: log
+    runs-on: ubuntu-latest
+
+      steps:
+        - name: log
+          run: |
+          echo ${{github.ref_name}} ${{github.head_ref}}
 
