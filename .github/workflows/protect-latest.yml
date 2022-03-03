@@ -15,9 +15,8 @@ jobs:
   check:
     name: log
     runs-on: ubuntu-latest
-
-      steps:
-        - name: log
-          run: |
-          echo ${{github.ref_name}} ${{github.head_ref}}
+    steps:
+      - name: log
+        run: |
+        echo ${{github.ref_name}} ${{github.head_ref}}
 
