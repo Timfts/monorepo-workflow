@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/Timfts/monorepo-workflow/compare/v0.5.0-next.0...v0.5.0) (2022-03-03)
+
+
+### Features
+
+* ✨ added publish:prod script ([f08be28](https://github.com/Timfts/monorepo-workflow/commit/f08be2833bd2dd025f6a0e5e3d7a14a9805c35e1))
+
+
+
+
+
 # [0.5.0-next.0](https://github.com/Timfts/monorepo-workflow/compare/v0.5.0-alpha.0...v0.5.0-next.0) (2022-03-03)
 
 
