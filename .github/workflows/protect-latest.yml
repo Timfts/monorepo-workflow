@@ -22,5 +22,5 @@ jobs:
           fetch-depth: 0
       - name: log
         run: |
-        echo ${{github.ref_name}} ${{github.head_ref}}
+          echo ${{github.ref_name}} ${{github.head_ref}}
 
